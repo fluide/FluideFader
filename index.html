@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fluide FadeHover - Example</title>
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>  
+	<script src="fluidefader.min.js" type="text/javascript"></script>  
+	<script type="text/javascript">
+$(document).ready(function() {
+	$('.ex-1').fadeHover({
+	    fadeSpeed: 500, // Speed of Fade Effect
+	    fadeAmountTo: 0.5, // Fade To
+	    fadeAmountOut: 1 // Fade In
+	});
+});
+	</script>
+	
+	<style type="text/css">
+	body {background: #000;}
+	.examples {width: 960px;margin: 0 auto;text-align: center;}
+	</style>
+</head>
+<body>
+	
+	<div class="examples">
+	<img src="img-ex/ex-1.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-2.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-3.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-4.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-5.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-6.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-7.jpg" title="Example" class="ex-1"/>
+	<img src="img-ex/ex-8.jpg" title="Example" class="ex-1"/>
+	</div>
+	
+</body>
+</html>
